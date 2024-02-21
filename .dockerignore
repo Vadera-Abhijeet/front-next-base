@@ -1,0 +1,8 @@
+# Ignore node_modules, as they will be installed in the Docker image
+node_modules
+package-lock.json
+.git
+
+# Ignore build artifacts and development-specific files
+.build
+.next
